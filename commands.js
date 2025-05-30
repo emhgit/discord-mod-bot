@@ -1,7 +1,7 @@
 const { REST, Routes} = require("discord.js");
 require('dotenv').config();
 
-//Initialize slash commands for
+//Initialize slash commands 
 const commands = [
   new SlashCommandBuilder()
     .setName('kick')
@@ -20,6 +20,7 @@ const commands = [
 
 const rest = new REST({ version: '10' }).setToken(process.env.DISCORD_TOKEN);
 
+//register the slash commands 
 (async () => {
   try {
     await rest.put(

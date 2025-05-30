@@ -15,9 +15,12 @@ This project uses the following tools:
 ## Usage
 
 1. Running the Bot
-    - Run this command in the terminal: 
+    - Deploy the slash commands: 
         ```bash
-            node deploy-commands.js
+            node commands.js
+    - Start the bot:
+        ```bash
+            node index.js
 2. Keep Bot Running
     - Local:
         ```bash
@@ -26,8 +29,6 @@ This project uses the following tools:
     - Cloud:
         Use Render.com, Railway.app, or Replit (free options).
         Push code to GitHub, link to a cloud provider, and configure DISCORD_TOKEN as an environment variable.
-
-
 
 ## Third Party Libaries
 
