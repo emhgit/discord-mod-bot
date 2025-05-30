@@ -10,7 +10,7 @@ To be added...
 
 This project uses the following tools:
 - Node.js
-- Discord.js
+- Discord.js - https://github.com/discordjs/discord.js
 
 ## Usage
 
@@ -29,11 +29,6 @@ This project uses the following tools:
     - Cloud:
         Use Render.com, Railway.app, or Replit (free options).
         Push code to GitHub, link to a cloud provider, and configure DISCORD_TOKEN as an environment variable.
-
-## Third Party Libaries
-
-This project uses the following library:
-- Discord.js - https://github.com/discordjs/discord.js
 
 ## License
 
